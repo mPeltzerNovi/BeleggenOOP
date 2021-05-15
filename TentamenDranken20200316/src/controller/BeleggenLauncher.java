@@ -3,14 +3,15 @@ package controller;
 import database.DBaccess;
 
 /**
- * Dit is het startpunt van het voorraadbeheer-systeem van de slijterij en bevat daarnaast een collectie van tests.
- * @author HBO-ICT - Software Engineering
+ *
+ * Dit is het startpunt van het beheer-systeem van een beleggingsrekening en bevat daarnaast een collectie van tests.
+ * @op basis van een oud tentamen wat ik gemaakt heb.
  */
-public class SlijterijLauncher {
+public class BeleggenLauncher {
 
     public static void main(String[] args) {
 
-        System.out.println("Welkom bij Slijterij 't Lammetje, geschreven door: <Naam> <Klas> <Studentnr>\n");
+        System.out.println("Welkom bij de uitwerking voor het beheersysteem voor aandelen en obligaties\n");
 
         /* TODO stap 2: haal commentaar weg
         testStap2();
