@@ -1,5 +1,5 @@
 package controller;
-//upload boilerplate voor Belleggen demo
+//upload boilerplate voor Belleggen demo opnieuw
 import database.DBaccess;
 
 /**
