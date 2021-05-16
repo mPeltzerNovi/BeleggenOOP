@@ -2,6 +2,7 @@ package controller;
 //
 import database.DBaccess;
 import model.Bier;
+import model.Voorraad;
 import model.Wijn;
 
 import java.time.LocalDate;
@@ -25,17 +26,17 @@ public class SlijterijLauncher {
         testStap3();
         //einde TODO stap 3
 
-        /* TODO stap 4: haal commentaar weg
+        //TODO stap 4: haal commentaar weg
         Voorraad voorraad = testStap4();
-        einde TODO stap 4 */
+        //einde TODO stap 4 */
 
-        /* TODO stap 5: haal commentaar weg
+        //TODO stap 5: haal commentaar weg
         testStap5(voorraad);
-        einde TODO stap 5 */
+        //einde TODO stap 5 */
 
-        /* TODO stap 6: haal commentaar weg
+        //TODO stap 6: haal commentaar weg
         testStap6(voorraad);
-        einde TODO stap 6 */
+        //einde TODO stap 6 */
 
         /* TODO stap 7: haal commentaar weg
         testStap7(voorraad);
@@ -93,7 +94,8 @@ public class SlijterijLauncher {
     }
     //einde TODO stap 3 */
 
-    /* TODO stap 4: haal commentaar weg
+    //TODO stap 4: haal commentaar weg
+    //Class Voorrraad importeren
     private static Voorraad testStap4() {
         Voorraad voorraad = new Voorraad();
 
@@ -127,23 +129,23 @@ public class SlijterijLauncher {
 
         return voorraad;
     }
-    einde TODO stap 4 */
+    //einde TODO stap 4 */
 
-    /* TODO stap 5: haal commentaar weg
+    //TODO stap 5: haal commentaar weg
     private static void testStap5(Voorraad voorraad) {
         System.out.println("--- Test stap 5 ---");
         System.out.println(voorraad);
         System.out.println();
     }
-    einde TODO stap 5 */
+    //einde TODO stap 5
 
-    /* TODO stap 6: haal commentaar weg
+    //TODO stap 6: haal commentaar weg
     private static void testStap6(Voorraad voorraad) {
         System.out.println("--- Test stap 6 ---");
         voorraad.printBewaarWijnen();
         System.out.println();
     }
-    einde TODO stap 6 */
+    //einde TODO stap 6 */
 
     /* TODO stap 7: haal commentaar weg
     private static void testStap7(Voorraad voorraad) {

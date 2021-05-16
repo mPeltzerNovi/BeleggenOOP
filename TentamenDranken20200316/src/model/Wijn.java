@@ -11,10 +11,10 @@ public class Wijn extends Drank {
     private final static int DUUR_BEWAARWIJN_JAREN = 100;
     private final static int DUUR_GEEN_BEWAARWIJN_JAREN = 10;
 
-    private boolean bewaarWijn;
+    private boolean bewaarWijn; //hier zit de fout waardoor stap 6 niet werkte-->Na verbetering doet hij het idd wel.
 
     //constructor
-    public Wijn(String naam, LocalDate brouwDatum, double prijs, boolean bewaarwijn) {
+    public Wijn(String naam, LocalDate brouwDatum, double prijs, boolean bewaarWijn) { //specifiek hier stond "bewaarwijn"-->
         super(naam, brouwDatum, prijs);
         this.bewaarWijn = bewaarWijn;
     }

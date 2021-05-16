@@ -4,7 +4,8 @@ package model;
 
 import java.time.LocalDate;
 
-public abstract class Drank {
+//Stap 5 a. Aanpassen Class: toevoegen implements Comparable<Drank> (de Array)
+public abstract class Drank implements Comparable<Drank> {
 
     //Variabelen declareren
     private String naam;
@@ -39,6 +40,11 @@ public abstract class Drank {
         return naam + ": " + prijs + "euro per fles\nHoudbaar tot: " + bepaalHoudbaarTot();
     }
 
-    //Hieronder bij stap 6 interface met compareTo()-methode maken.
+    //Hieronder bij stap 5 interface met compareTo()-methode maken.
+    //Stap 5 b. Override met compareTo()
+    @Override
+    public int compareTo(Drank andereDrank) {
+        return naam.compareTo(andereDrank.naam);
+    }
 
 }
