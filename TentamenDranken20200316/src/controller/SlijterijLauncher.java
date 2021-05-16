@@ -1,13 +1,13 @@
 package controller;
-//upload boilerplate voor Belleggen demo opnieuw
+//
 import database.DBaccess;
 
 /**
  *
  * Dit is het startpunt van het beheer-systeem van een beleggingsrekening en bevat daarnaast een collectie van tests.
- * @op basis van een oud tentamen wat ik gemaakt heb.
+ * Op basis van een oud tentamen wat ik gemaakt heb.
  */
-public class BeleggenLauncher {
+public class SlijterijLauncher {
 
     public static void main(String[] args) {
 
