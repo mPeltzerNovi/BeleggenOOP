@@ -1,6 +1,10 @@
 package controller;
 //
 import database.DBaccess;
+import model.Bier;
+import model.Wijn;
+
+import java.time.LocalDate;
 
 /**
  *
@@ -13,13 +17,13 @@ public class SlijterijLauncher {
 
         System.out.println("Welkom bij de uitwerking voor het beheersysteem voor aandelen en obligaties\n");
 
-        /* TODO stap 2: haal commentaar weg
-        testStap2();
-        einde TODO stap 2 */
+         //TODO stap 2: haal commentaar weg
+        testStap2();   //Hier de comments weggehaald!!!
+        //einde TODO stap 2
 
-        /* TODO stap 3: haal commentaar weg
+        //TODO stap 3: haal commentaar weg
         testStap3();
-        einde TODO stap 3 */
+        //einde TODO stap 3
 
         /* TODO stap 4: haal commentaar weg
         Voorraad voorraad = testStap4();
@@ -45,7 +49,8 @@ public class SlijterijLauncher {
         dBaccess.closeConnection();
     }
 
-    /* TODO stap 2: haal commentaar weg
+     //TODO stap 2: haal commentaar weg
+    //Importeren classe "Bier" en "LocalDate"
     private static void testStap2() {
         Bier bier1 = new Bier("Hertog Jan Karakter", LocalDate.of(2018, 9, 24),
                 3.66, 7.5, false );
@@ -62,9 +67,10 @@ public class SlijterijLauncher {
         System.out.println(bier3);
         System.out.println();
     }
-    einde TODO stap 2 */
+    //einde TODO stap 2
 
-    /* TODO stap 3: haal commentaar weg
+    //TODO stap 3: haal commentaar weg
+    //importeren  class Wijn
     private static void testStap3() {
         Wijn wijn1 = new Wijn("Château La Tour Carnet 2014", LocalDate.of(2014, 1, 16),
                 35.99, false);
@@ -85,7 +91,7 @@ public class SlijterijLauncher {
         System.out.println(wijn4);
         System.out.println();
     }
-    einde TODO stap 3 */
+    //einde TODO stap 3 */
 
     /* TODO stap 4: haal commentaar weg
     private static Voorraad testStap4() {
