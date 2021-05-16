@@ -1,5 +1,9 @@
 package model;
 
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -32,7 +36,25 @@ public class Voorraad {
         }
     }
 
-    //Methode voor printBedorvenDranken() met File maken in "resources"
+    //Stap 7Methode voor printBedorvenDranken() met File maken in "resources"
+    //met een try catch blok
+    public void printBedorvenDranken() {
+        try {
+            File drankbestand = new File("resources/bedorvendrank.txt");
+            PrintWriter printWriter = new PrintWriter(drankbestand);
+            for (Drank drank : dranken) {
+                if (drank.bepaalHoudbaarTot().isBefore(LocalDate.now())) {
+                    printWriter.println(drank);
+                    printWriter.println();
+                }
+            }
+            printWriter.close();
+        } catch (IOException schrijffout) { //hier word "new Printwriter" ok
+            System.out.println("Schrijven niet gelukt");
+
+        }
+    }
+
 
     //toString voor een uitdraai van de voorraad; alfabetisch gesorteerd.
     //Stap 5 c. toString die de dranken output op alfabetische volgorde

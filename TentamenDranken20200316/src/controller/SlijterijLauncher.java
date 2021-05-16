@@ -38,9 +38,9 @@ public class SlijterijLauncher {
         testStap6(voorraad);
         //einde TODO stap 6 */
 
-        /* TODO stap 7: haal commentaar weg
-        testStap7(voorraad);
-        einde TODO stap 7 */
+        //TODO stap 7: haal commentaar weg
+        //testStap7(voorraad);
+        //einde TODO stap 7 */
 
         /* TODO stap 8: schrijf code die de wijnen uit de database haalt.
         einde TODO stap 8 */
@@ -147,12 +147,12 @@ public class SlijterijLauncher {
     }
     //einde TODO stap 6 */
 
-    /* TODO stap 7: haal commentaar weg
+    /*TODO stap 7: haal commentaar weg
     private static void testStap7(Voorraad voorraad) {
         System.out.println("--- Test stap 7 ---");
         voorraad.printBedorvenDranken();
         System.out.println();
     }
-    einde TODO stap 7 */
+    //einde TODO stap 7 */
 
 }
